@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+    <style>
+        #container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+}
+
+.link .tip {
+  visibility: hidden;
+  width: 0;
+  height: 100px;
+  opacity: 0;
+  background-color: #008CBA;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.link:active  .tip {
+  visibility: visible;
+  width: 150px;
+  height: auto;
+  opacity: 1;
+}
+.link:visited .tip {
+  visibility: visible;
+  width: 150px;
+  height: auto;
+  opacity: 1;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="link">Hover me now !
+          <span class="tip">
+            Some few text here<br><br>
+            Let's try something else<br><br>
+            And adding more info here too<br><br>
+            And even a bit more here also
+            </span>
+        </div>
+      </div>
+</body> 
+<!-- test2--> 
+<style> 
+
+.modal.left .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.left .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.left .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+/*Left*/
+	.modal.left.fade .modal-dialog{
+		left: -320px;
+		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+		        transition: opacity 0.3s linear, left 0.3s ease-out;
+	}
+	
+	.modal.left.fade.in .modal-dialog{
+		left: 0;
+	}
+        
+
+
+/* ----- MODAL STYLE ----- */
+	.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.modal-header {
+		border-bottom-color: #EEEEEE;
+		background-color: #FAFAFA;
+	}
+
+
+</style>
+</html> 
+
+
+
+<ul id="racine" >	
+							
+    <li  style="padding:5px 0px 5px 0px;" >	
+        <div class="row racine1" style="margin: 0px;padding: 0px; width: 800px;">
+        <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+             <img src="MyAssets/Icon Business server.svg" style="height: 22px;"> Jalis
+        </div>
+        <div class="col-md-2"style="margin: 0px 0px 0px 20px;padding: 0px;width:100px">
+            Business Folder
+        </div>
+        <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+          01/12/2020
+        </div>
+    </div>
+
+
+    <ul class="domaine" style="margin-left: 25px;">
+
+        <li id="1"  class="domaine-list"style="padding:5px 0px 5px 0px;">
+
+            <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+                <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+                    <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Présentation de Jalis 
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+                    Video
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+                  02/12/2020
+                </div>
+            </div>
+            
+            </li>  
+            
+        <li id="2 "  class="domaine-list " style="padding:5px 0px 5px 0px;">
+            
+            <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+                <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+                    <img class="" src="MyAssets/Icon Fiche service.svg" style=" width:22px; margin-right: 6px;" >Création de sites web   
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+                    Service
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+                  03/12/2020
+                </div>
+            </div>
+                                              </li>
+                                      <li id="3 "  class="domaine-list " style="padding:5px 0px 5px 0px;">
+            <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+                <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+                    <img class="" src="MyAssets/Icon Fiche service.svg" style=" width:22px; margin-right: 6px;" >Référencement de sites web
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+                    Service
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+                  05/12/2020
+                </div>
+            </div>
+            </li>  							  
+            </ul>
+            </li>
+</ul>
+
+
+                    
+            <ul id="racine" >						
+
+                <li  style="padding:0px;" >
+            <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+                
+                <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+                    <span class="racine "> <img src="MyAssets/Icon Business server.svg" style="height: 22px;"> Amadeus</span>	
+                        </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 20px;padding: 0px;width:100px">
+                    Business Folder
+                </div>
+                <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+                  10/12/2020
+                </div>
+            
+            </div>
+        </li>
+          
+    
+</ul>
+
+
+
+
+
+
+
+<ul id="racine" >						
+
+    
+    <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+        <li  style="padding:5px 0px 5px 0px;" >
+        <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+            <span class="racine "> 	<img src="MyAssets/Icon Business server.svg" style="height: 22px;"> CCI Nice - Côte d’Azur</span>	
+        </div>									
+            <div class="col-md-2"style="margin: 0px 0px 0px 20px;padding: 0px;width:100px">
+                Business Folder
+        </div>
+        <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+          11/01/2021
+        </div>
+    </li>
+    </div>						
+  
+
+</ul>
+<h3 style="margin: 20px 0px 13px 17px;">Last publications</h3>
+<ul class="domaine active" >
+<li id="1-" style="padding:5px 0px 5px 0px;" class="domaine-list " >				
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+         <img class="" src="MyAssets/Icon Profil Entreprise.svg" style="height: 22px;margin-right: 6px;">Amadeus
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Company
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      06/12/2020
+    </div>
+</div>
+</li>				
+<li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img class="" src="MyAssets/Icon Offre emploi.svg" style="height: 22px;margin-right: 6px;">Ingénieur Java
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Job offer
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      08/12/2020
+    </div>
+</div>
+</li>
+<li id="3 " style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img class="" src="MyAssets/Icon Offre emploi.svg" style="height: 22px;margin-right: 6px;">Digital Marketing Manager
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Job offer
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      15/12/2020
+    </div>
+</div>
+</li>
+<li id="4 " style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img class="" src="MyAssets/Icon Actualite.svg" style="height: 22px;margin-right: 6px;">Microsoft installe un centre R&D à Sophia Antipolis
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        News
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      23/12/2020
+    </div>
+</div>
+</li>				
+<li id="5"  style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img id="img-profile" src="MyAssets/Meryem.png" style="height: 22px;margin-right: 6px;">Meryem Abdelli
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Personal profile
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      13/12/2020
+    </div>
+</div>
+</li>
+<li id="6 " style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img class="" src="MyAssets/Icon Profil Entreprise.svg" style="height: 22px;margin-right: 6px;">Djiant
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Company
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      03/12/2020
+    </div>
+</div>
+</li>
+<li id="7 "  style="padding:5px 0px 5px 0px;"class="domaine-list " >
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img class="" src="MyAssets/Icon Evenement.svg" style="height: 22px;margin-right: 6px;">Salon Apprentissage,Alternance & métiers	
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Event
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      10/12/2020
+    </div>
+</div>
+</li>
+<li id="8" style="padding:5px 0px 5px 0px;" class="domaine-list " > 
+<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+    <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+        <img id="img-profile-badr"  src="MyAssets/Badr minaiture.png" style="height: 22px;margin-right: 6px;">Badreddine Fellague		
+    </div>						
+    <div class="col-md-2"style="margin: 0px 0px 0px 6px;padding: 0px;width:100px">
+        Personal profile
+    </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 17px;padding: 0px;">
+      05/01/2021
+    </div>
+</div>
+</li>
+</ul>
+
+
+
+
+
+<!-- heda win-->
+<ul id="racine"  style="margin-left:20px;">	
+							
+    <li  style="padding:5px 0px 5px 0px;" >	
+      <div class="row racine1" style="margin: 0px;padding: 0px;">
+      <div class="col-md-8 racine "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+         <img src="assets/new-icons/SearchTree.svg" style="height: 22px;"> Europe
+      </div>
+      <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px; width:100px">
+        358
+      </div>
+       </div>
+  
+  
+    <ul class="domaine" style="margin-left: 25px;">
+
+      <li id="1"  class="domaine-list"style="padding:5px 0px 5px 0px;">
+
+        <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+          <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+            <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Présentation de Jalis 
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+            Video
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+            02/12/2020
+          </div>
+        </div>
+        
+       </li>  
+        
+      <li id="2 "  class="domaine-list " style="padding:5px 0px 5px 0px;">
+        
+        <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+          <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+            <img class="" src="MyAssets/Icon Fiche service.svg" style=" width:22px; margin-right: 6px;" >Création de sites web   
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+            Service
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+            03/12/2020
+          </div>
+        </div>
+       </li>
+      <li id="3 "  class="domaine-list " style="padding:5px 0px 5px 0px;">
+        <div class="row" style="margin: 0px;padding: 0px; width: 800px;">
+          <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:367px;">
+            <img class="" src="MyAssets/Icon Fiche service.svg" style=" width:22px; margin-right: 6px;" >Référencement de sites web
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 13px;padding: 0px;width:100px">
+            Service
+          </div>
+          <div class="col-md-2"style="margin: 0px 0px 0px 19px;padding: 0px;">
+            05/12/2020
+          </div>
+        </div>
+        </li>  							  
+        </ul>
+        </li>
+  </ul>
+
+  <ul id="racine"  style="margin-left:20px;">						
+        
+    <li  style="padding:0px;" >
+  <div class="row" style="margin: 0px;padding: 0px;">
+    
+    <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+      <span class="racine "> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;">4 Afrique du Nord et Moyen-Orient 
+</span>	
+        </div>
+    <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+      45
+    </div>
+ 
+  
+  
+</li>
+  
+
+</ul>
+
+
+
+
+
+
+
+<ul id="racine"  style="margin-left:20px;">						
+
+
+<div class="row" style="margin: 0px;padding: 0px;">
+<li  style="padding:5px 0px 5px 0px;" >
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+  <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;">Afrique
+</span>	
+</div>									
+  <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+    67
+</div>
+
+</li>
+</div>						
+
+
+</ul>
+
+<ul id="racine"  style="margin-left:20px;">						
+
+
+<div class="row" style="margin: 0px;padding: 0px;">
+<li  style="padding:5px 0px 5px 0px;" >
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+<span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;">Amérique du Sud
+
+</span>	
+</div>									
+<div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+122
+</div>
+
+</li>
+</div>						
+
+
+</ul>
+
+<ul id="racine"  style="margin-left:20px;">						
+
+
+<div class="row" style="margin: 0px;padding: 0px;">
+<li  style="padding:5px 0px 5px 0px;" >
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+<span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;">Amérique du Nord
+
+</span>	
+</div>									
+<div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+243
+</div>
+
+</li>
+</div>						
+
+
+</ul>
+
+<ul id="racine" style="margin-left:20px;" >						
+
+
+<div class="row" style="margin: 0px;padding: 0px;">
+<li  style="padding:5px 0px 5px 0px;" >
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+<span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;">Asie
+</span>	
+</div>									
+<div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+336
+</div>
+
+</li>
+</div>						
+
+
+</ul>
+
+
+<ul id="racine" style="margin-left:20px;" >						
+
+
+<div class="row" style="margin: 0px;padding: 0px;">
+<li  style="padding:5px 0px 5px 0px;" >
+<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+<span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;">Oceanie
+</span>	
+</div>									
+<div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+25
+</div>
+
+</li>
+</div>						
+
+
+</ul>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="tabcontent" id="tab_2">
+
+</div> 
+
+
