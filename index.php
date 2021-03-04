@@ -65,7 +65,7 @@ if ($url =='djiant.com' ) {
 
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <div  style=" font-family:calibri;font-weight:600;font-size:16px;border-bottom: 1px solid #dddddd4d;">
+          <div  style=" font-family:calibri;font-weight:700;font-size:17px;border-bottom: 1px solid #dddddd4d;">
 						<img style="margin-right: 6px;margin-left:15px;margin-bottom:20px;margin-top:15px;" src="assets/new-icons/SearchTree.svg" width="22px"> 
             Search and navigate in : Technoparks
 
@@ -81,14 +81,14 @@ if ($url =='djiant.com' ) {
 										<a id="tab_3" data-toggle="tab">
 										<h4 style="margin:0px; font-weight: 400;">Home</h4> </a>
 									</li>
-									<li  class="tabss activve" onclick="blue_tabs(this)" style="margin-right:5px;">
+									<li  class="tabss activve" onclick="blue_tabs(this)" style="margin-right:10px;">
 										<a   class="tablinks" tab-toggle="tab" onclick="openCity(event, 'tab_1')">
-										<h4 style="margin:0px;font-family:calibri light ! important; font-weight: 600;" >Naviguer</h4> </a>
+										<h4 style="margin:0px;font-family:calibri  ! important; font-weight: 400;" >Naviguer</h4> </a>
 									</li>
 									
 									<li class="tabss" onclick="blue_tabs(this)" >
 										<a  class="tablinks" onclick="openCity(event, 'tab_2')">
-									<h4 style="margin:0px; font-weight: 600;font-family:calibri light ! important;" > Rechercher</h4>	 </a>
+									<h4 style="margin:0px; font-weight: 400;font-family:calibri !important;" > Rechercher</h4>	 </a>
 									</li>
 									
 								</ul>
@@ -112,20 +112,19 @@ if ($url =='djiant.com' ) {
         <div class="tab-content">
         <div id="tab_1" class="tabcontent"> 
       
-        <div  style=" font-family:calibri light;">
-						<img style="margin-right: 6px;margin-bottom:20px;margin-top:10px;" src="assets/new-icons/SearchTree.svg" width="22px"> 
+        <div  style=" font-family:calibri light;" >
+						<img style="margin-right: 6px;margin-bottom:10px;margin-top:10px;" src="icons/Icone 1.svg" width="22px"> 
             Technoparks
-
-         </div>  
+        </div>  
          
          <ul id="racine"  style="margin-left:20px;">	
 							
-              <li  style="padding:5px 0px 5px 0px;" >	
+              <li  style="padding:0px 0px 5px 0px;" >	
                 <div class="row racine1" style="margin: 0px;padding: 0px;">
-                <div class="col-md-8 racine racine-down " href="#demo1" data-toggle="collapse"  style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-                   <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;"> Europe (CEE)
+                <div class="col-md-9 racine racine-down " href="#demo1" data-toggle="collapse"  style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+                   <img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Europe (CEE)
                 </div>
-                <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px; width:100px">
+                <div class="col-md-1"style="margin: 0px 0px 0px 70px;padding: 0px;">
                   358
                 </div>
                  </div>
@@ -140,11 +139,11 @@ if ($url =='djiant.com' ) {
         <li  style="padding:0px;" >
       <div class="row" style="margin: 0px;padding: 0px;">
         
-        <div class="col-md-7 "style="margin: 0px 0px 0px 0px;padding: 0px;">
-          <span class="racine "> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Allemagne
+        <div class="col-md-9 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+          <span class="racine "> <img src="icons/Icone 3.svg" style="height: 22px;margin-right:6px;">Allemagne
 </span>	
         </div>
-        <div class="col-md-2"style="margin: 0px 0px 0px 80px;padding: 0px;">
+        <div class="col-md-1"style="margin: 0px 0px 0px 60px;padding: 0px;">
                   15
                 </div>
        
@@ -165,11 +164,11 @@ if ($url =='djiant.com' ) {
                     <li  style="padding:0px;" >
                   <div class="row" style="margin: 0px;padding: 0px;">
                     
-                    <div class="col-md-7 "style="margin: 0px 0px 0px 0px;padding: 0px;">
-                      <span class="racine racine-down " href="#demo2" data-toggle="collapse"> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">France</span>	
+                    <div class="col-md-9 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+                      <span class="racine racine-down " href="#demo2" data-toggle="collapse"> <img src="icons/Icone 3.svg" style="height: 22px;margin-right:6px;">France</span>	
                     </div>
 
-                    <div class="col-md-2"style="margin: 0px 0px 0px 80px;padding: 0px;">
+                    <div class="col-md-1"style="margin: 0px 0px 0px 60px;padding: 0px;">
                   12
                     </div>
                     <ul   id="demo2"   class=" collapse"> 
@@ -177,7 +176,7 @@ if ($url =='djiant.com' ) {
 	
   <div class="row" style="margin: 0px;padding: 0px;">
     <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:280px;">
-      <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Technopole Sophia Anpolis
+      <img class="" src="icons/Icone 5.svg" style=" width:22px; margin-right: 6px;" >Technopole Sophia Anpolis
 
     </div>
    
@@ -193,7 +192,7 @@ if ($url =='djiant.com' ) {
 	
   <div class="row" style="margin: 0px;padding: 0px;">
     <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:280px;">
-      <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Technopole Laval
+      <img class="" src="icons/Icone 5.svg" style=" width:22px; margin-right: 6px;" >Technopole Laval
 
 
     </div>
@@ -208,7 +207,7 @@ if ($url =='djiant.com' ) {
 	
   <div class="row" style="margin: 0px;padding: 0px;">
     <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:280px;">
-      <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Atalante
+      <img class="" src="icons/Icone 5.svg" style=" width:22px; margin-right: 6px;" >Atalante
 
 
     </div>
@@ -223,7 +222,7 @@ if ($url =='djiant.com' ) {
 	
   <div class="row" style="margin: 0px;padding: 0px;">
     <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:280px;">
-      <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Eurallile 
+      <img class="" src="icons/Icone 5.svg" style=" width:22px; margin-right: 6px;" >Eurallile 
 
 
     </div>
@@ -238,7 +237,7 @@ if ($url =='djiant.com' ) {
 	
   <div class="row" style="margin: 0px;padding: 0px;">
     <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:280px;">
-      <img class="" src="MyAssets/Icon Video.svg" style=" width:22px; margin-right: 6px;" >Paris - Saclay
+      <img class="" src="icons/Icone 5.svg" style=" width:22px; margin-right: 6px;" >Paris - Saclay
 
 
     </div>
@@ -274,11 +273,11 @@ if ($url =='djiant.com' ) {
 <li  style="padding:0px;" >
 <div class="row" style="margin: 0px;padding: 0px;">
 
-<div class="col-md-7 "style="margin: 0px 0px 0px 0px;padding: 0px;">
-<span class="racine "> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Espagne
+<div class="col-md-9 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+<span class="racine "> <img src= "icons/Icone 3.svg"style="height: 22px;margin-right:6px;">Espagne
 </span>	
 </div>
-<div class="col-md-2"style="margin: 0px 0px 0px 80px;padding: 0px;">
+<div class="col-md-1"style="margin: 0px 0px 0px 60px;padding: 0px;">
   15
 </div>
 
@@ -299,11 +298,11 @@ if ($url =='djiant.com' ) {
 <li  style="padding:0px;" >
 <div class="row" style="margin: 0px;padding: 0px;">
 
-<div class="col-md-7 "style="margin: 0px 0px 0px 0px;padding: 0px;">
-<span class="racine "> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Italie
+<div class="col-md-9 "style="margin: 0px 0px 0px 0px;padding: 0px;">
+<span class="racine "> <img src="icons/Icone 3.svg" style="height: 22px;margin-right:6px;">Italie
 </span>	
 </div>
-<div class="col-md-2"style="margin: 0px 0px 0px 80px;padding: 0px;">
+<div class="col-md-1"style="margin: 0px 0px 0px 60px;padding: 0px;">
   15
 </div>
 
@@ -332,11 +331,11 @@ if ($url =='djiant.com' ) {
                     <li  style="padding:0px;" >
                   <div class="row" style="margin: 0px;padding: 0px;">
                     
-                    <div class="col-md-8 "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-                      <span class="racine "> <img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Afrique du Nord et Moyen-Orient 
+                    <div class="col-md-9 "style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+                      <span class="racine "> <img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Afrique du Nord et Moyen-Orient 
 </span>	
                         </div>
-                    <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+                    <div class="col-md-1"style="margin: 0px 0px 0px 61px;">
                       45
                     </div>
                  
@@ -358,11 +357,11 @@ if ($url =='djiant.com' ) {
               
               <div class="row" style="margin: 0px;padding: 0px;">
                 <li  style="padding:5px 0px 5px 0px;" >
-                <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-                  <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Afrique
+                <div class="col-md-9"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+                  <span class="racine "> 	<img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Afrique
 </span>	
                 </div>									
-                  <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+                  <div class="col-md-1"style="margin: 0px 0px 0px 61px;">
                     67
                 </div>
               
@@ -376,13 +375,13 @@ if ($url =='djiant.com' ) {
           
               
           <div class="row" style="margin: 0px;padding: 0px;">
-            <li  style="padding:5px 0px 5px 0px;" >
-            <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-              <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Amérique du Sud
+            <li   >
+            <div class="col-md-9"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+              <span class="racine "> 	<img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Amérique du Sud
 
 </span>	
             </div>									
-              <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+              <div class="col-md-1"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
                 122
             </div>
           
@@ -396,13 +395,13 @@ if ($url =='djiant.com' ) {
           
               
           <div class="row" style="margin: 0px;padding: 0px;">
-            <li  style="padding:5px 0px 5px 0px;" >
-            <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-              <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Amérique du Nord
+            <li  style="padding:5px 0px 5px 0px;"  >
+            <div class="col-md-9"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+              <span class="racine "> 	<img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Amérique du Nord
 
 </span>	
             </div>									
-              <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+              <div class="col-md-1"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
                 243
             </div>
           
@@ -416,12 +415,12 @@ if ($url =='djiant.com' ) {
           
               
           <div class="row" style="margin: 0px;padding: 0px;">
-            <li  style="padding:5px 0px 5px 0px;" >
-            <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-              <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Asie
+            <li  style="padding:0px 0px 5px 0px;" >
+            <div class="col-md-9"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+              <span class="racine "> 	<img src="icons/Icone 2.svg"style="height: 22px;margin-right:6px;">Asie
 </span>	
             </div>									
-              <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+              <div class="col-md-1"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
                 336
             </div>
           
@@ -436,12 +435,12 @@ if ($url =='djiant.com' ) {
           
               
           <div class="row" style="margin: 0px;padding: 0px;">
-            <li  style="padding:5px 0px 5px 0px;" >
-            <div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-              <span class="racine "> 	<img src="assets/new-icons/SearchTree.svg" style="height: 22px;margin-right:6px;">Oceanie
+            <li   >
+            <div class="col-md-9"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
+              <span class="racine "> 	<img src="icons/Icone 2.svg" style="height: 22px;margin-right:6px;">Oceanie
 </span>	
             </div>									
-              <div class="col-md-2"style="margin: 0px 0px 0px 70px;padding: 0px;width:100px">
+              <div class="col-md-1"style="margin: 0px 0px 0px 74px;padding: 0px;width:100px">
                 25
             </div>
           
@@ -471,10 +470,10 @@ if ($url =='djiant.com' ) {
           </div> 
           <h1 style="family-font:calibri !important;font-size:15px;padding-top:10px;">Communautés actives sur Djiant</h1>
 					<ul class="domaine active" >
-						<li id="1" style="padding:5px 0px 5px 0px;" class="domaine-list "onclick="dodajAktywne(this)" >				
+						<li id="1" style="padding:5px 0px 5px 0px;" class="domaine-list "onclick="dodajAktywne(this);whiteimg(this)" >				
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-                   <img class="" src="assets/new-icons/Icone-Server.svg" style="height:22px;margin-right:6px;">Technopole Laval Mayenne <br> 
+                   <img class="white-img" src="icons/Icone 6.svg" style="height:22px;margin-right:6px;">Technopole Laval Mayenne <br> 
                   <div style="margin-left:30px;font-size:13px;color:gray;"> Laval - France </div>
                 </div>
              
@@ -484,7 +483,7 @@ if ($url =='djiant.com' ) {
 						 <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)"> 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height:22px;margin-right: 6px;">Technopole de Chateau Gombert Marseille provence
+									<img class="" src="icons/Icone 6.svg" style="height:22px;margin-right: 6px;">Technopole de Chateau Gombert Marseille provence
                   <div style="margin-left:30px;font-size:13px;color:gray;"> Marseille - France </div>
 								</div>
 							
@@ -493,7 +492,7 @@ if ($url =='djiant.com' ) {
             <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)"> 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">Novaon City
+									<img class="" src="icons/Icone 6.svg" style="height:22px;margin-right: 6px;">Novation City
                   <div style=margin-left:30px;font-size:13px;color:gray;> Sousse - Tunisie </div>
 								</div>
 							
@@ -505,7 +504,7 @@ if ($url =='djiant.com' ) {
 						<li id="1-" style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)" >				
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									 <img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">Le Gazala
+									 <img class="" src="icons/Icone 7.svg" style="height: 22px;margin-right: 6px;">Le Gazala
                    <div style=margin-left:30px;font-size:13px;color:gray;> Tunis - Tunisie </div>
 								</div>
 							
@@ -514,7 +513,7 @@ if ($url =='djiant.com' ) {
 						 <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)"> 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">Sofia Anpolis
+									<img class="" src="icons/Icone 7.svg" style="height: 22px;margin-right: 6px;">Sofia Anpolis
                   <div style=margin-left:30px;font-size:13px;color:gray;> Sophia Antipolis - France </div>
 								</div>
 							
@@ -523,7 +522,7 @@ if ($url =='djiant.com' ) {
             <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)"> 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">TVT - Toulon Var Technologies
+									<img class="" src="icons/Icone 7.svg" style="height: 22px;margin-right: 6px;">TVT - Toulon Var Technologies
                   <div style=margin-left:30px;font-size:13px;color:gray;> Toulon - France </div>
 
 								</div>
@@ -533,7 +532,7 @@ if ($url =='djiant.com' ) {
             <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)" > 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">Technoparc Maroc
+									<img class="" src="icons/Icone 7.svg" style="height: 22px;margin-right: 6px;">Technoparc Maroc
                   <div style=margin-left:30px;font-size:13px;color:gray;> Casablanca - Maroc </div>
 								</div>
 							
@@ -542,7 +541,7 @@ if ($url =='djiant.com' ) {
             <li id="2 " style="padding:5px 0px 5px 0px;" class="domaine-list " onclick="dodajAktywne(this)" > 
 							<div class="row" style="margin: 0px;padding: 0px; width: 800px;">
 								<div class="col-md-8"style="margin: 0px 0px 0px 0px;padding: 0px;width:400px;">
-									<img class="" src="assets/new-icons/Icone-Server.svg" style="height: 22px;margin-right: 6px;">Technopole Sidi Abdallah
+									<img class="" src="icons/Icone 7.svg" style="height: 22px;margin-right: 6px;">Technopole Sidi Abdallah
                   <div style=margin-left:30px;font-size:13px;color:gray;> Alger - Algérie </div>
 								</div>
 							
@@ -585,6 +584,9 @@ if ($url =='djiant.com' ) {
 .activve {
   border-bottom: 4px solid #008DD2;
   position: relative;
+}
+.white-img{ 
+
 }
 
 </style>
@@ -631,9 +633,14 @@ function dodajAktywne(elem) {
         a[i].classList.remove('activee')
     }
     elem.classList.add('activee');
+   
+  
+   
     
     
 } 
+
+
 
 
 

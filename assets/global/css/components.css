@@ -6349,7 +6349,8 @@ Custom tabs
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
-  margin-right: 0;
+  margin-right: -13px;
+  margin-left: -13px;
   color: #737373;
 }
 .tabbable-line > .nav-tabs > li > a > i {

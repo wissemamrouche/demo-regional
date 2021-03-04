@@ -8106,7 +8106,7 @@ position: absolute;
   p,   li,   .p,   .li {
   font-size: 14px;
   font-weight: 300;
-  line-height: 16px; }
+ }
 
 
 
@@ -8425,7 +8425,7 @@ position: absolute;
 .close {
     display: inline-block;
 margin-top: 22px !important;
-    margin-right: 10px;
+    margin-right: 20px;
     width: 9px;
     height: 9px;
     background-repeat: no-repeat !important;
